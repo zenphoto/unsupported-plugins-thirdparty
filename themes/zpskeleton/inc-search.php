@@ -1,1 +1,0 @@
-					<?php printSearchForm(null,'searchform',null,gettext('Search'),"$_zp_themeroot/images/list_12x11.png",null,null,null ); ?>

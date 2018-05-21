@@ -88,7 +88,7 @@ class RMCZS {
 	 *
 	 * @return RMCZS
 	 */
-	function RMCZS() {
+	function __construct() {
 
 		add_action('admin_menu', array(&$this,'ShowAdmin'));         
 		

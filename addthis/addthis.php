@@ -19,7 +19,7 @@ zp_register_filter('theme_head','addthisJS');
  */
 class addthisOptions {
 
-	function addthisOptions() {
+	function __construct() {
 		setOptionDefault('addthis_style', 'Style1');
 		setOptionDefault('addthis_profileID', '');
 		setOptionDefault('addthis_ga', '');

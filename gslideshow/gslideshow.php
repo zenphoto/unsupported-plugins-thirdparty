@@ -18,7 +18,7 @@ $plugin_author = "GJR (oswebcreations.com), code based off core cycle plugin";
 $option_interface = 'gslideshow';
 
 class gslideshow {
-	function gslideshow() {
+	function __construct() {
 		setOptionDefault('gslideshow_transition', 'fade');
 		setOptionDefault('gslideshow_playspeed', '4000');
 		setOptionDefault('gslideshow_clicknext', false);

@@ -21,7 +21,7 @@ if ($plugin_disable) {
 
 class zpdisqus {
 
-	function comment_form() {
+	function __construct() {
 		setOptionDefault('zpdisqus_shortname', '');
 	}
 

@@ -56,7 +56,7 @@ class xpPublish {
 	var $onNext = 'window.external.FinalNext();';
 	var $onCancel = '';
 
-	function xpPublish() {
+	function __construct() {
 	}
 	
 	function handleCmd($cmd) {
